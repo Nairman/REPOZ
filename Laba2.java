@@ -15,6 +15,10 @@ public class Laba2 {
         pryam(m,n);
         System.out.println("Треугольник");
         tri();
+        System.out.println("Минимум");
+        int h = IN.nextInt();
+        int g = IN.nextInt();
+        minimum(g,h);
     }
     
     public static void chet(){
@@ -41,4 +45,13 @@ public class Laba2 {
             System.out.println(s);
         }
     }
-}
+    
+    public static void minimum(int g, int h){
+        int f;
+        if (g<h)
+            f= g;
+        else
+            f= h;
+        System.out.println(f);
+        }
+    }
